@@ -1,37 +1,55 @@
 <div>
+  <a href="#home"><button class="fixed z-50 bottom-5 right-5 w-14 hover:scale-125 duration-500"><img src="up.png" alt=""></button></a>
+
   <img src="bgsite.png" class="fixed h-dvh w-full z-0" alt="">
   <div class="absolute w-full flex justify-center">
-    <div class="p-4 flex justify-center items-center text-black z-50 absolute w-full">
-      <ul class="flex gap-8 cursor-pointer">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#technologies">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-      </ul>  
+    <div class="nav p-4 flex justify-center items-center text-white z-50 fixed w-full">
+      <div class="w-[1400px] flex justify-between items-center">
+        <h1 class="font-extrabold text-3xl">&#60;GLYNN&#62;</h1>
+        <ul class="flex gap-8 cursor-pointer">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#technologies">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>  
+        <a href="#contact"><button class="px-6 text-white py-2 rounded-full bg-cyan-600">Contact Me</button></a>
+      </div>
     </div>
-    <div class="absolute">
-      <div id="home" class=" h-dvh w-[1366px] top-0 z-10 flex items-center p-20">
+    <div class="absolute w-full flex justify-center flex-col items-center">
+      <div id="home" class="h-dvh w-[1366px] top-0 z-10 flex items-center">
         <div class="mt-16 flex justify-center items-center w-full">
           <div class=" w-full flex flex-col">
             <span class="text-3xl font-light leading-none">HI Welcome to my</span>
             <span class="text-[90px] font-bold leading-none">PORTFOLIO</span> 
             <div class="flex justify-start items-center w-full p-3 gap-6">
-              <a href="https://www.facebook.com/messages/t/5890368184334852/" target="_blank"><img src="messenger.webp" class="w-12 p-3 rounded-2xl bg-white" alt=""></a>
-              <a href="https://www.linkedin.com/in/yvert-glynn-soriano-a65721252/" target="_blank"><img src="linkedin.webp" class="w-12 p-3 rounded-2xl bg-white" alt=""></a>
-              <a href="https://github.com/glynn315" target="_blank"><img src="git.png" class="w-12 p-3 rounded-2xl bg-white" alt=""></a>
+              <a href="https://www.facebook.com/messages/t/5890368184334852/" target="_blank"><img src="messenger.webp" class="w-12 p-3 rounded-2xl bg-white hover:scale-125 duration-500" alt=""></a>
+              <a href="https://www.linkedin.com/in/yvert-glynn-soriano-a65721252/" target="_blank"><img src="linkedin.webp" class="w-12 p-3 rounded-2xl bg-white hover:scale-125 duration-500" alt=""></a>
+              <a href="https://github.com/glynn315" target="_blank"><img src="git.png" class="w-12 p-3 rounded-2xl bg-white hover:scale-125 duration-500" alt=""></a>
             </div>
           </div>
-          <div class="w-full"> 
-            <img src="me.png" class="w-full rounded-full shadow-2xl shadow-gray-700" alt="">
+          <div class="w-full relative"> 
+            <div class="w-2/5 top-10 h-[40%] left-16 border-4 border-blue-500 absolute">
+
+            </div>
+            <div class="w-4/6 right-0 top-18 h-[50%] border-4 border-blue-500 absolute">
+
+            </div>
+            <div class="w-4/6 left-0 bottom-0 h-[30%] border-4 border-blue-500 absolute">
+
+            </div>
+            <div class="w-1/6 -right-10 bottom-0 h-[70%] border-4 border-blue-500 absolute">
+
+            </div>
+            <img src="me.png" class="w-full z-20 relative rounded-b-full" alt="">
           </div>
         </div>
       </div>
-      <div id="about" class="h-dvh w-[1366px] top-0 z-10 flex items-center p-20">
-        <div class="mt-16 flex justify-center items-center w-full">
+      <div id="about" class="h-dvh w-full bg-slate-800 top-0 z-10 flex justify-center items-center p-20">
+        <div class="mt-16 flex justify-center items-center w-[1366px]">
           <div class=" w-full flex flex-col">
-            <span class="text-[100px] font-extrabold opacity-20 leading-none">ABOUT ME</span>
-            <span class="text-[50px] -mt-14 font-extrabold leading-none">ABOUT ME</span>
-            <span class="text-2xl font-semibold text-black leading-none text-justify pr-5 indent-10">Hi, I'm Yvert Glynn Soriano, a passionate and driven software developer. I am committed to mastering my craft and staying at the forefront of the industry. I embrace challenges, continuously push my limits, and strive for excellence in everything I do.</span> 
+            <span class="text-[100px] font-extrabold opacity-20 text-white leading-none">ABOUT ME</span>
+            <span class="text-[50px] -mt-14 font-extrabold text-white leading-none">ABOUT ME</span>
+            <span class="text-2xl font-normal text-white leading-tight text-justify pr-5 indent-10">Hi, I'm Yvert Glynn Soriano, a passionate and driven software developer. I am committed to mastering my craft and staying at the forefront of the industry. I embrace challenges, continuously push my limits, and strive for excellence in everything I do.</span> 
           </div>
           <div class="w-full flex justify-end"> 
             <img src="coding.png" class="w-2/3" alt="">
@@ -48,35 +66,71 @@
           <div class=" w-full flex flex-col">
             <span class="text-[25px] mt-14 font-extrabold leading-none">Development</span>
           </div>
-          <div class="w-full flex justify-end gap-10 items-center mt-10"> 
-            <img src="hmtl.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="css.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="bootstrap.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="ionic.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="js.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="laravel.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="mssql.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="mysql.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="net.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="php.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="psql.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="sass.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="wordpress.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="tailwind.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
+          <div class="w-full flex justify-start gap-2 items-center flex-wrap mt-3"> 
+            <img src="hmtl.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="css.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="bootstrap.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="ionic.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="js.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="sass.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="wordpress.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="tailwind.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="mssql.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="mysql.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="psql.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="net.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="php.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="laravel.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            
           </div>
           <div class=" w-full flex flex-col">
             <span class="text-[25px] mt-14 font-extrabold leading-none">Creatives</span>
           </div>
-          <div class="w-full flex justify-start gap-10 items-center mt-10"> 
-            <img src="ps.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="ai.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
-            <img src="Figma.png" class="w-[50px] h-[50px] p-2 rounded-md bg-white" alt="">
+          <div class="w-full flex justify-start gap-2 items-center mt-10"> 
+            <img src="ps.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="ai.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
+            <img src="Figma.png" class="w-[90px] h-[90px] p-6 rounded-3xl bg-white" alt="">
           </div>
         </div>
       </div>
-      <div id="projects"  class="h-dvh w-full top-0 z-10 flex items-center p-20">
+      <div id="projects"  class="h-dvh w-[1366px] top-0 z-10 flex items-center">
         <div class="mt-16 flex flex-col justify-center items-center w-full">
-          <span class="text-[130px] font-extrabold"> Under Developemnt </span>
+          
+        </div>
+      </div>
+      <div id="contact"  class=" bg-slate-600 w-full top-0 z-10 flex flex-col items-center">
+        <div class="p-10 shadow-lg bg-gray-950 flex flex-row justify-center items-center w-full">
+          <div class="w-2/4 flex justify-center items-center">
+            <h1 class="font-extrabold text-[50px] text-white">Want to Connect?</h1>
+          </div>
+          <div class="w-2/4 border-l-2 border-white pl-6">
+            <table>
+              <tr>
+                <td><img src="letter.png" alt="" class="w-8"></td>
+                <td class="text-white pl-4"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=sorianoyvert26@gmail.com" target="_blank">sorianoyvert26&#64;gmail.com</a></td>
+              </tr>
+              <div class="h-3">
+
+              </div>
+              <tr>
+                <td><img src="contact.png" alt="" class="w-8"></td>
+                <td class="text-white pl-4">09569435938</td>
+              </tr>
+              <div class="h-3">
+
+              </div>
+              <tr>
+                <td><img src="text.png" alt="" class="w-8"></td>
+                <td class="text-white pl-4"><a href="https://www.messenger.com/t/10030725137042171/" target="_blank">Yvert Glynn Soriano</a></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="footer p-7">
+          <div class="w-[1366px] flex justify-between items-center text-white">
+            <h1 class="font-extrabold text-3xl">&#60;GLYNN&#62;</h1>
+            <span>Copyright &#64; 2025 Yvert Glynn Soriano. All rights reserved.</span>
+          </div>
         </div>
       </div>
     </div>
